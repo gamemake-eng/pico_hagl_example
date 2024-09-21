@@ -21,8 +21,8 @@ add_executable(hagl_test main.c)
 pico_set_program_name(hagl_test "hagl test")
 pico_set_program_version(hagl_test "0.1")
 
-pico_enable_stdio_usb(firmware 1)
-pico_enable_stdio_uart(firmware 0)
+pico_enable_stdio_usb(hagl_test 1)
+pico_enable_stdio_uart(hagl_test 0)
 
 target_link_libraries(hagl_test pico_stdlib)
 
