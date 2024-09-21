@@ -1,0 +1,6 @@
+[submodule "lib/hagl"]
+	path = lib/hagl
+	url = https://github.com/tuupola/hagl.git
+[submodule "lib/hagl_pico_mipi"]
+	path = lib/hagl_pico_mipi
+	url = https://github.com/tuupola/hagl_pico_mipi.git
