@@ -14,9 +14,6 @@ int main() {
 	int dx = 1;
 	int dy = 1;
 
-
-
-/* Main loop. */
 	while (1) {
 		x += dx*speed;
 		y += dy*speed;
